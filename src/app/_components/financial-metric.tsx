@@ -1,5 +1,5 @@
 import Image from "next/image"
-import PigIcom from "@/assets/pig-icon.png"
+import PigIcom from "@/src/assets/pig-icon.png"
 
 export const FinancialMetricCard = () => {
     return (

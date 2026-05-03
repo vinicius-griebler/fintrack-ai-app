@@ -1,7 +1,7 @@
 'use server'
 
 import { Prisma } from '@prisma/client'
-import { auth } from '@/lib/auth'
+import { auth } from '@/src/lib/auth'
 import { headers } from 'next/headers'
 import { redirect } from 'next/navigation'
 
@@ -9,7 +9,7 @@ import {
     type CreateTransactionFormData,
      createTransactionFormSchema,
     } from "../_schemas/transactions"
-import { prisma } from "@/lib/prisma"
+import { prisma } from "@/src/lib/prisma"
 
 type AddTransactionParams = Omit<Prisma.TransactionCreateInput, 'user' | 'userId'>
 

@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import PlusIcon from '@/assets/plus-icon.png'
-import ConfirmIcon from '@/assets/confirm-icon.png'
+import PlusIcon from '@/src/assets/plus-icon.png'
+import ConfirmIcon from '@/src/assets/confirm-icon.png'
 import {
     Dialog,
     DialogContent,
@@ -11,7 +11,7 @@ import {
     DialogTitle,
     DialogTrigger,
     DialogFooter,
-} from '@/app/_components/ui/dialog'
+} from '@/src/app/_components/ui/dialog'
 import { Label } from '@/src/app/_components/ui/label'
 import { Input } from '@/src/app/_components/ui/input'
 import {
