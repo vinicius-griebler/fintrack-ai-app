@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import iconReceitas from '@/assets/revenues-icon.png'
-import iconDespesas from '@/assets/expenses-icon.png'
-import decorative from '@/assets/decorative-icon.png'
+import iconReceitas from '@/src/assets/revenues-icon.png'
+import iconDespesas from '@/src/assets/expenses-icon.png'
+import decorative from '@/src/assets/decorative-icon.png'
 
 function formatBRL(value: number): string {
     return new Intl.NumberFormat('pt-BR', {

@@ -1,7 +1,7 @@
-import { prisma } from '@/lib/prisma'
+import { prisma } from '@/src/lib/prisma'
 import { TransactionType } from '@prisma/client'
 
-import { auth } from '@/lib/auth'
+import { auth } from '@/src/lib/auth'
 import { redirect } from 'next/navigation'
 import { headers } from 'next/headers'
 

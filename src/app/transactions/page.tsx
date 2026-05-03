@@ -1,7 +1,7 @@
 import { Sidebar } from '../_components/sidebar'
 import { Header } from '../_components/header'
-import { prisma } from '@/lib/prisma'
-import { auth } from '@/lib/auth'
+import { prisma } from '@/src/lib/prisma'
+import { auth } from '@/src/lib/auth'
 import { headers } from 'next/headers'
 import { redirect } from 'next/navigation'
 import { Inter } from 'next/font/google'
@@ -14,10 +14,10 @@ import {
     TableHead,
     TableHeader,
     TableRow,
-} from '@/app/_components/ui/table'
+} from '@/src/app/_components/ui/table'
 
-import EditIcon from '@/assets/edit-icon.png'
-import DeleteIcon from '@/assets/delete-icon.png'
+import EditIcon from '@/src/assets/edit-icon.png'
+import DeleteIcon from '@/src/assets/delete-icon.png'
 
 export const dynamic = 'force-dynamic'
 

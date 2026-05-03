@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 import 'dayjs/locale/pt-br'
-import { AddTransactionButton } from '@/app/_components/add-transaction-button'
+import { AddTransactionButton } from '@/src/app/_components/add-transaction-button'
 import { TransactionIcon } from './transaction-icon'
 import Link from 'next/link'
 import { getRecentTransactions } from '../_data/get-recent-transactions'

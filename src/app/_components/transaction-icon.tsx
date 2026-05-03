@@ -1,8 +1,8 @@
 import Image, { StaticImageData } from 'next/image'
 
-import Food from '@/assets/food-icon.png'
-import Box from '@/assets/box-icon.png'
-import Tv from '@/assets/tv-icon.png'
+import Food from '@/src/assets/food-icon.png'
+import Box from '@/src/assets/box-icon.png'
+import Tv from '@/src/assets/tv-icon.png'
 
 interface TransactionIconProps {
   type: 'DEPOSIT' | 'EXPENSE' | 'INVESTMENT'

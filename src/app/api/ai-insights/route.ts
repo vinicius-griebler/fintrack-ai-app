@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import OpenAI from 'openai'
-import { TRANSACTION_CATEGORY_LABELS } from '@/app/_constants/transaction'
+import { TRANSACTION_CATEGORY_LABELS } from '@/src/app/_constants/transaction'
 import type { TransactionCategory } from '@prisma/client'
 
 
