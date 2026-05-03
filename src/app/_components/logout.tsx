@@ -1,5 +1,5 @@
 'use client'
-import { authClient } from '@/lib/auth-client'
+import { authClient } from '@/src/lib/auth-client'
 import { useRouter } from 'next/navigation'
 import logoutIcon from '@/assets/logout-icon.png'
 import Image from 'next/image'
