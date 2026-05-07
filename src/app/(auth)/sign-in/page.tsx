@@ -40,7 +40,6 @@ export default function SignInPage() {
     const router = useRouter()
 
     const onSubmit = async (data: SignInFormData) => {
-        console.log(data)
         try {
             const { data: result, error: err } = await authClient.signIn.email({
                 email: data.email,
@@ -106,7 +105,7 @@ export default function SignInPage() {
 
                 <button
                     type="submit"
-                    className="w-full bg-[#9333EA] flex items-center
+                    className="w-full bg-[#060cc5] flex items-center
                 justify-center gap-2 font-semibold rounded-2xl py-4 cursor-pointer"
                 >
                     <span>Entrar</span>

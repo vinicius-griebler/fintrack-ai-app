@@ -167,7 +167,7 @@ export const AiInsights = ({
             <button
                 className="flex items-center justify-center gap-3 w-full
             border-2 border-dashed border-[#1E293B] py-4 rounded-2xl text-white
-            hover:border-[#9333EA] cursor-pointer hover:text-[#9333EA]"
+            hover:border-[#060cc5] cursor-pointer hover:text-[#060cc5]"
                 onClick={fetchInsights}
             >
                 <Image src={refreshIcon} alt="Refresh Icon" />

@@ -124,7 +124,7 @@ export default function SignUpPage() {
 
                     <button
                         type="submit"
-                        className="w-full bg-[#9333EA] flex items-center
+                        className="w-full bg-[#060cc5] flex items-center
                 justify-center gap-2 font-semibold rounded-2xl py-4 cursor-pointer"
                 disabled={isSubmitting}
                     >

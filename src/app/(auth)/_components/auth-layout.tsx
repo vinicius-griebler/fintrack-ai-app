@@ -21,10 +21,10 @@ export const AuthLayout = ({
     footerText
 }: AuthLayoutProps) => {
     return (
-        <section className="h-screen flex items-center justify-center p-10">
-            <div className="bg-[#181818] w-full max-w-md p-8 rounded-2xl">
+        <section className="bg-[#242424] h-screen flex items-center justify-center p-10">
+            <div className="bg-[#181818] w-full max-w-md p-8 rounded-2xl border border-white">
                 <div className="flex flex-col items-center mb-8">
-                    <div className="bg-[#9333EA] h-16 w-16 flex items-center justify-center rounded-2xl mb-6">
+                    <div className="bg-[#060cc5] h-16 w-16 flex items-center justify-center rounded-2xl mb-6">
                         <Image src={DolarIcon} alt='Ícone da página de autenticação' />
                     </div>
 
@@ -39,7 +39,7 @@ export const AuthLayout = ({
                     {footerText}
 
 
-                    <Link href={footerHref} className="ml-1 text-[#9333EA] font-semibold hover:underline">
+                    <Link href={footerHref} className="ml-1 text-[#060cc5] font-semibold hover:underline">
                         {footerLinkText}
                     </Link>
                 </p>

@@ -13,7 +13,7 @@ export const MonthSelect = () => {
     }
 
     return (
-        <select value={currentMonth} onChange={handleChange}>
+        <select className="text-white bg-[#161B26]" value={currentMonth} onChange={handleChange}>
             <option value="01">Janeiro</option>
             <option value="02">Fevereiro</option>
             <option value="03">Março</option>

@@ -83,7 +83,7 @@ export const AddTransactionButton = () => {
                 <DialogTrigger asChild>
                     <button
                         type="button"
-                        className="rounded-sm bg-[#9333EA] px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-600/20
+                        className="rounded-sm bg-[#060cc5] px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-emerald-600/20
                         transition-colors flex items-center gap-2 cursor-pointer"
                     >
                         <Image src={PlusIcon} alt="Plus Icon" />
