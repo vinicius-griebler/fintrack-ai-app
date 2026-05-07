@@ -26,7 +26,7 @@ export const Sidebar = () => {
       </div>
 
       <nav className="flex flex-1 flex-col gap-2 px-4 py-4">
-        <a href="http://localhost:3000" className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-text-[#94A3B8] hover:bg-[#060cc5] hover:text-white transition-colors">
+        <a href="https://fintrackai-dash.vercel.app/" className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-text-[#94A3B8] hover:bg-[#060cc5] hover:text-white transition-colors">
               
           <Image src={dashboardIcon} alt="Ícone do Dashboard" />
         <span className="text-base text-white font-medium leading-normal">

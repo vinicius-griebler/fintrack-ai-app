@@ -14,7 +14,7 @@ export const auth = betterAuth({
       },
       plugins: [nextCookies()],
       trustedOrigins: [
-        process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000",
+        process.env.NEXT_PUBLIC_APP_URL ?? "https://fintrackai-dash.vercel.app/",
       ],
 
 
